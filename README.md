@@ -1,5 +1,3 @@
 **PHP Function To Reverse The Popular sw() JavaScript Email Encryption Function**
 
-Example input: *moc_yyz_rehpargotohpbytteb.ytteb.com*
-
-Example output: *betty@bettybphotographer.com*
+    echo sw('moc_yyz_rehpargotohpbytteb.ytteb.com');    // Prints betty@bettybphotographer.com
