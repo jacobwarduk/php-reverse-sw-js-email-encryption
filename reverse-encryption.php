@@ -5,7 +5,7 @@ function sw( $t ) {
 
     $t = substr( $t, 0, strlen( $t ) - 4 );
 
-    $r = implode( array_map( 'chr', array('95', '121', '121', '122', '95') ) );
+    $r = implode( array_map( 'chr', array( '95', '121', '121', '122', '95' ) ) );
 
     while ( strpos( $r, '#' ) !== false ) {
         $r = str_replace( '#', '', $r );
